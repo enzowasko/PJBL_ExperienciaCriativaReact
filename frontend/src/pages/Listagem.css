@@ -1,0 +1,56 @@
+.card {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+h3 {
+    margin-top: 0;
+    color: var(--secondary);
+    border-bottom: 2px solid var(--primary);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: var(--secondary);
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover { background-color: #f9f9f9; }
+
+.actions-cell {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-view, .btn-edit, .btn-delete {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-view { background-color: #3498db; }
+.btn-edit { background-color: #f39c12; }
+.btn-delete { background-color: #e74c3c; }
+
+.btn-view:hover { background-color: #2980b9; }
+.btn-edit:hover { background-color: #d35400; }
+.btn-delete:hover { background-color: #c0392b; }

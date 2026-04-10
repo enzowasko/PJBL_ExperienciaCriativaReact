@@ -1,0 +1,30 @@
+.details-container {
+    background: var(--white);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border-left: 8px solid var(--primary);
+}
+
+.detail-item {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 5px;
+}
+
+.detail-item strong {
+    color: var(--secondary);
+}
+
+.price-tag {
+    font-size: 1.5rem;
+    color: #27ae60;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
