@@ -14,7 +14,7 @@ Este projeto e um sistema CRUD completo (Create, Read, Update, Delete) desenvolv
 
 1. Abra o MySQL Workbench.
 2. Importe e execute o arquivo de script SQL para criar a base de dados e a tabela de veiculos.
-3. Verifique no arquivo Backend/src/config/db.js se as credenciais (usuario e senha) correspondem ao seu banco MySQL local.
+3. Verifique no arquivo backend/db.js se as credenciais (usuario e senha) correspondem ao seu banco MySQL local.
 
 ### Rodando o Backend (API)
 
